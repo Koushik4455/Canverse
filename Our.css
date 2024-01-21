@@ -1,0 +1,42 @@
+.out-mem-crdin-img {
+    background-image: url(https://img.freepik.com/free-photo/woman-stretching-with-yoga-nature_23-2147658183.jpg?t=st=1705639374~exp=1705639974~hmac=b1f5ec998b7163ee4974b4715ca0994ad3235b90f072b306b0bf05b8afce4ada);
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+}
+.our-crd-main{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    background-color: rgb(245, 179, 93) !important;
+   
+        border: 1px solid #ccc;
+        padding: 10px;
+        margin: 10px;
+     
+}
+
+.our-btn {
+    margin-top: 150px;
+}
+
+.our-btn-btm {
+    margin-bottom: 150px;
+    border: none;
+    padding: 10px;
+    background: #FF8008;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFC837, #FF8008);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFC837, #FF8008); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.our-btn-onclk{
+    border: none;
+    width: 10%;
+}
+.our-main-bgimg{
+    background-image: url("https://img.freepik.com/free-photo/3d-dark-grunge-display-background-with-smoky-atmosphere_1048-16218.jpg?w=740&t=st=1705642066~exp=1705642666~hmac=931951490c083ecd36e1a0d3656d8f8189545bc2cb40c26a6c3b270f290a7b14");
+margin-top: -8px;
+}
+.our-clr{
+    color: white;
+}

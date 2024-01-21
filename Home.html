@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Corevance</title>
+  <!-- Css Link -->
+  <link rel="stylesheet" href="./Corevance.css">
+  <link rel="stylesheet" href="./Our.css">
+  <link rel="stylesheet" href="./Booking.css">
+  <!-- Bootsrap Links -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <!-- Testimonial Links -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="owl.carousel.min.css">
+  <link rel="stylesheet" type="text/css" href="Testimonials.css">
+  <!-- Testimonial Script -->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+    <script src="owl.carousel.min.js"></script>
+    <script src="Testimonials.js"></script>
+    <!-- icons link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+</head>
+
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg  bg-dark p-3">
+    <a class="navbar-brand" href="#">Ovla Gardens </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="background-color: #ff5e14;">
+      <span class="navbar-toggler-icon"><i class="bi bi-border-width"></i></span>
+    </button>
+
+    <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Cobins</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Convention</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Restauent</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Gallery</a>
+        </li>
+
+      </ul>
+      <button class="nav-btn">Book Now</button>
+      <button class="btn  my-2 my-sm-0" type="submit">Book Now</button>
+    </div>
+  </nav>
+  <!-- Head Page -->
+  <div class="Conatiner-fluid text-center hedpg-bgclr p-5">
+    <h6 class="hedpge-fstln">THE NEW GENERATION OF RESORTS</h6>
+    <h1 class="hedpge-secln">Select Your Cabins Here</h1>
+  </div>
+  <!--Booking Page  -->
+  <div class="container bkg-main">
+    <div class="card p-3 bking-crd">
+        <div class="row">
+            <div class="col-md-2">
+                <h6><i class="bi bi-house-fill"></i> &nbsp;Cabins</h6>
+                <div class="form-group">
+                  
+                    <select id="guests" name="guests" class="sltopt">
+                        <option value="1">1 </option>
+                        <option value="2">2 </option>
+                        <option value="3">3 </option>
+                        <option value="2">4 </option>
+                        <option value="3">5 </option>
+                        <!-- Add more options as needed -->
+                    </select>
+                </div> 
+            </div>
+            <div class="col-md-3">
+                <h6><i class="bi bi-calendar-fill"></i> &nbsp;Check-in</h6>
+               <input type="date">
+            </div>
+            <div class="col-md-3">
+                <h6><i class="bi bi-calendar-fill"></i> &nbsp;Check-out</h6>
+                <input type="date">
+            </div>
+            <div class="col-md-4">
+                <div class="row p-2">
+                    <div class="col-md-6">
+                        <h6><i class="bi bi-person-fill"></i> &nbsp;Persons</h6>
+                        <div class="form-group">
+                  
+                            <select id="guests" name="guests" class="sltopt">
+                                <option value="1">1 </option>
+                                <option value="2">2 </option>
+                                <option value="3">3 </option>
+                                <option value="2">4 </option>
+                                <option value="3">5 </option>
+                                <!-- Add more options as needed -->
+                            </select>
+                        </div> 
+                    </div>
+                    <div class="col-md-6">
+                        <button class="bkng-btn">View Availability</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+  <!-- Cards -->
+  <div class="Conatiner-fluid bckimg1 ">
+    <div class="container pt-5">
+      <div class="row  mt-5">
+        <div class="col-md-4">
+          <div class="card crdres p-2">
+            <img class="card-img-top" src="./Images/relax-area-resort.jpg" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card p-2">
+            <img class="card-img-top" src="./Images/umbrella-chair-beautiful-beach-sea-sunrise-time-travel-vacation.jpg"
+              alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card p-2">
+            <img class="card-img-top" src="./Images/umbrella-chair.jpg" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+      <br />
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card p-2">
+            <img class="card-img-top" src="./Images/relax-area-resort.jpg" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card p-2">
+            <img class="card-img-top" src="./Images/umbrella-chair-beautiful-beach-sea-sunrise-time-travel-vacation.jpg"
+              alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card p-2">
+            <img class="card-img-top" src="./Images/umbrella-chair.jpg" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+      <br />
+    </div>
+  </div>
+  <!-- Galary -->
+  <div class="bckimg2">
+    <h1 class="our-text-clr p-3">Our Awesome Facilities</h1>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <img class="img-fluid"
+            src="https://img.freepik.com/free-photo/family-four-enjoying-day-swimming-pool-together_23-2149025433.jpg?w=740&t=st=1705514073~exp=1705514673~hmac=e2e371dc4c385d2f8a528eea01d7b42b81f71ef4030248b40e44772690233d6b">
+        </div>
+        <div class="col-sm-6">
+          <img class="img-fluid"
+            src="https://img.freepik.com/free-photo/children-having-fun-with-floater-by-pool_23-2149492546.jpg?w=740&t=st=1705514199~exp=1705514799~hmac=c9ccb0a19c87010a3910c36f7688f6f70e7599cf068b9abd15248f89ca9dc1f7">
+        </div>
+      </div>
+      <br />
+      <br />
+      <div class="row">
+        <div class="col-sm-6">
+          <img class="img-fluid"
+            src="https://img.freepik.com/free-photo/happy-young-company-emotional-smiling-friends-walking-park-with-photo-camera-man-women-having-fun-together_285396-8936.jpg?w=740&t=st=1705514511~exp=1705515111~hmac=58761f1c4635958c2bfddbf27203b0eef0da40c6cbf46d4a03d866b20546e9af">
+        </div>
+        
+        <div class="col-sm-6  imgfacres">
+          <img class="img-fluid"
+            src="https://img.freepik.com/premium-photo/three-happy-beautiful-women-blowing-soap-bubbles-city-street_484651-1797.jpg?w=740">
+        </div>
+      </div>
+      <br />
+      <br />
+    </div>
+  </div>
+  <!-- Our Membersip -->
+  <div class="our-main-bgimg">
+    <div class="container ">
+      <h1 class="text-center m-2 our-clr">Our Membersip</h1>
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card out-mem-crdin-img">
+            <h3>Ovals Gardens</h3>
+            <div class="p-3 iutres1 " >
+              <P ><b class="ourres"><i class="bi bi-check-circle-fill"></i>&nbsp;&nbsp;One Time Food</b></p>
+              <P ><b class="ourres"><i class="bi bi-check-circle-fill"></i> &nbsp;&nbsp;Stay Wit Delicious Breakfast</b></p>
+              <P ><b class="ourres"><i class="bi bi-check-circle-fill"></i>&nbsp;&nbsp;Join Us In THe New Year</b></p>
+              <P ><b class="ourres"><i class="bi bi-check-circle-fill"></i>&nbsp;&nbsp;Welcome You To A Created</b></p>
+              <P ><b class="ourres"><i class="bi bi-check-circle-fill"></i>&nbsp;&nbsp;Experience Gastronomy</b></p>
+              <P ><b class="ourres"><i class="bi bi-check-circle-fill"></i>&nbsp;&nbsp;Summer Sensation</b></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card our-crd-main" id="parentCard">
+            <button class="our-btn-onclk" onclick="showChild()">+</button>
+            <p class="our-btn">$199/MONTH</p>
+            <button class="our-btn-btm">Sliver Package</button>
+          </div>
+
+          <div class="card our-crd-main" id="childCard" style="display: none;">
+            <button onclick="showParent()">-</button>
+            <p class="our-btn">Sliver Pricing Plan</p>
+            <button class="our-btn-btm">Sliver Package</button>
+          </div>
+
+        </div>
+        <div class="col-md-3">
+          <div class="card our-crd-main" id="parentCard1">
+            <button class="our-btn-onclk" onclick="showChild1()">+</button>
+            <p class="our-btn">$199/MONTH</p>
+            <button class="our-btn-btm">Sliver Package</button>
+          </div>
+
+          <div class="card our-crd-main" id="childCard1" style="display: none;">
+            <button onclick="showParent1()">-</button>
+            <p class="our-btn">Wellcome to Sliver Plan</p>
+            <button class="our-btn-btm">Sliver Package</button>
+          </div>
+
+        </div>
+        <div class="col-md-3">
+          <div class="card our-crd-main" id="parentCard2">
+            <button class="our-btn-onclk" onclick="showChild2()">+</button>
+            <p class="our-btn">$199/MONTH</p>
+            <button class="our-btn-btm">Sliver Package</button>
+          </div>
+
+          <div class="card our-crd-main" id="childCard2" style="display: none;">
+            <button onclick="showParent2()">-</button>
+            <p class="our-btn">Wellcome to Sliver Plan</p>
+            <button class="our-btn-btm">Sliver Package</button>
+          </div>
+
+        </div>
+      </div>
+      <br/>
+      <br/>
+    </div>
+
+  </div>
+
+
+  <script>
+    function showChild() {
+      document.getElementById('parentCard').style.display = 'none';
+      document.getElementById('childCard').style.display = 'block';
+    }
+
+    function showParent() {
+      document.getElementById('childCard').style.display = 'none';
+      document.getElementById('parentCard').style.display = 'block';
+    }
+    function showChild1() {
+      document.getElementById('parentCard1').style.display = 'none';
+      document.getElementById('childCard1').style.display = 'block';
+    }
+
+    function showParent1() {
+      document.getElementById('childCard1').style.display = 'none';
+      document.getElementById('parentCard1').style.display = 'block';
+    }
+    function showChild2() {
+      document.getElementById('parentCard2').style.display = 'none';
+      document.getElementById('childCard2').style.display = 'block';
+    }
+
+    function showParent2() {
+      document.getElementById('childCard2').style.display = 'none';
+      document.getElementById('parentCard2').style.display = 'block';
+    }
+  </script>
+  <!-- What our CLient says -->
+  <div class="bckimg3">
+    <h1 class="our-text-clr p-3">What Our Client Says</h1>
+    <section id="slider" class="pt-5">
+      <div class="container">
+
+        <div class="slider">
+          <div class="owl-carousel">
+            <div class="slider-card">
+              <div class="d-flex justify-content-center align-items-center mb-4">
+                <img class="testimgcrd"
+                  src="https://img.freepik.com/free-photo/portrait-expressive-young-woman_1258-48167.jpg?size=626&ext=jpg&uid=R134572698&ga=GA1.1.2011371435.1700462815&semt=ais"
+                  alt="">
+              </div>
+              <h5 class="mb-0 text-center"><b>Vimala Kumari</b></h5>
+              <p class="text-center p-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam temporibus
+                quidem magni qui doloribus quasi natus inventore nisi velit minima.</p>
+            </div>
+            <div class="slider-card">
+              <div class="d-flex justify-content-center align-items-center mb-4">
+                <img class="testimgcrd"
+                  src="https://img.freepik.com/free-photo/portrait-expressive-young-woman_1258-48167.jpg?size=626&ext=jpg&uid=R134572698&ga=GA1.1.2011371435.1700462815&semt=ais"
+                  alt="">
+              </div>
+              <h5 class="mb-0 text-center"><b>Sravya</b></h5>
+              <p class="text-center p-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam temporibus
+                quidem magni qui doloribus quasi natus inventore nisi velit minima.</p>
+            </div>
+            <div class="slider-card">
+              <div class="d-flex justify-content-center align-items-center mb-4">
+                <img class="testimgcrd"
+                  src="https://img.freepik.com/free-photo/portrait-expressive-young-woman_1258-48167.jpg?size=626&ext=jpg&uid=R134572698&ga=GA1.1.2011371435.1700462815&semt=ais"
+                  alt="">
+              </div>
+              <h5 class="mb-0 text-center"><b>Srivani</b></h5>
+              <p class="text-center p-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam temporibus
+                quidem magni qui doloribus quasi natus inventore nisi velit minima.</p>
+            </div>
+            <div class="slider-card">
+              <div class="d-flex justify-content-center align-items-center mb-4">
+                <img class="testimgcrd"
+                  src="https://img.freepik.com/free-photo/portrait-expressive-young-woman_1258-48167.jpg?size=626&ext=jpg&uid=R134572698&ga=GA1.1.2011371435.1700462815&semt=ais"
+                  alt="">
+              </div>
+              <h5 class="mb-0 text-center"><b>Sahithi</b></h5>
+              <p class="text-center p-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam temporibus
+                quidem magni qui doloribus quasi natus inventore nisi velit minima.</p>
+            </div>
+            <div class="slider-card">
+              <div class="d-flex justify-content-center align-items-center mb-4">
+                <img class="testimgcrd"
+                  src="https://img.freepik.com/free-photo/portrait-expressive-young-woman_1258-48167.jpg?size=626&ext=jpg&uid=R134572698&ga=GA1.1.2011371435.1700462815&semt=ais"
+                  alt="">
+              </div>
+              <h5 class="mb-0 text-center"><b>Puja</b></h5>
+              <p class="text-center p-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam temporibus
+                quidem magni qui doloribus quasi natus inventore nisi velit minima.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <footer class="footer-section">
+    <div class="container">
+        <div class="footer-cta pt-5 pb-5">
+            <div class="row">
+                <div class="col-xl-7 col-md-7 mb-30">
+                    <div class="single-cta">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="cta-text">
+                            <h1>Subscribe to our newsletter!</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-5 col-md-5 mb-30">
+                    <div class="single-cta mt-2 ">
+                        <div class="cta-text">
+                           <button class="p-2">SUBSCRIBE NOW</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-content pt-5 pb-5">
+            <div class="row">
+                <div class="col-xl-4 col-lg-4 mb-50">
+                    <div class="footer-widget">
+                        <div class="footer-logo text-white">
+                          <h1>Ovla Gardens</h1>
+                        </div>
+                        <div class="footer-text">
+                            <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing
+                            elit,Lorem ipsum dolor sit amet.</p>
+                        </div>
+                       
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                    <div class="footer-widget">
+                        <div class="footer-widget-heading">
+                            <h3>COMPANY</h3>
+                        </div>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">about</a></li>
+                            <li><a href="#">services</a></li>
+                            <li><a href="#">portfolio</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">Our Services</a></li>
+                            <li><a href="#">Expert Team</a></li>
+                            <li><a href="#">Contact us</a></li>
+                            <li><a href="#">Latest News</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                    <div class="footer-widget">
+                        <div class="footer-widget-heading">
+                            <h3>CONTACT US</h3>
+                        </div>
+                        <div class="footer-text mb-25">
+                            <p>H.No 1-101/8,3rd Floor,Plot No 56,Srinivas Nilayam Harsha chambars Sai Nagar,Madhapur,Hyderabad,Telangana 500081</p>
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                    <div class="copyright-text">
+                        <p>Copyright &copy;Oval Gardens-2003 </a></p>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+                    <div class="footer-menu">
+                        <ul>
+                            <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+                            <li><a href="#"><i class="bi bi-youtube"></i></a></li>
+                            <li><a href="#"><i class="bi bi-twitter"></i></a></li>
+                            <li><a href="#"><i class="bi bi-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+</body>
+
+</html>

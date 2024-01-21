@@ -1,0 +1,274 @@
+.bckimg1{
+    background-image:url("https://img.freepik.com/free-photo/sunrise-urban-house_1353-265.jpg?w=740&t=st=1705509784~exp=1705510384~hmac=816f5b40f2b9135817b8d6ef412c72ef07c327d0af3c57ab0e87627e6237f5c3");
+    margin-top: -80px;
+}
+@media screen and (max-width: 767px) {
+  .bckimg1 {
+    margin-top: -295px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .crdres {
+    margin-top: 200px !important;
+  }
+}
+@media screen and (min-width: 757px) and (max-height: 998px) {
+  .ourres{
+   font-size: 10px !important;
+   
+  }
+}
+
+@media screen and (max-width: 574px) {
+  .imgfacres {
+    margin-top: 20px !important;
+  }
+}
+
+.bckimg2{
+    background-image: url("https://img.freepik.com/premium-photo/silhouette-palm-trees-against-sky-night_1048944-26534157.jpg?w=740");
+  
+}
+.bckimg3{
+    background-image: url("https://img.freepik.com/premium-photo/trees-against-sky-night_1048944-6731932.jpg?w=740");
+    
+}
+.our-text-clr{
+    color: white;
+    text-align: center;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: 100%;
+    border-radius: 10px;
+  }
+ 
+  /* Navbar */
+  .navbar-togglern{
+    background-color: white !important;
+  }
+  .navbar {
+    
+    font-family: Cursive	;
+  }
+  .nav-link  {
+    color: #ff5e14 !important;
+  }
+  .nav-link:hover{
+    color: white !important;
+  }
+  .navbar-brand{
+    color: #ff5e14 !important;
+
+  }
+  .nav-btn{
+   
+    border: none;
+    padding: 10px;
+    background: #FF8008;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFC837, #FF8008);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFC837, #FF8008); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+  /* Head PAge */
+  .hedpg-bgclr{
+    background: #b92b27;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1565C0, #b92b27);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1565C0, #b92b27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+  }
+  .hedpge-fstln{
+    padding-top: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+  .hedpge-secln{
+    font-family: cursive;
+    color: #FF8008;  
+    padding-bottom: 20px;
+   
+  }
+/* Footer */
+/* .ftrbgclr{
+    background-color: blue;
+}
+.ftrtxtclr{
+    color: white;
+}
+.textsubbtn {
+    border-radius: 10px;
+} */
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+.footer-section {
+  background: #2e1a47;
+  position: relative;
+}
+.footer-cta {
+  border-bottom: 1px solid #373636;
+}
+.single-cta i {
+  color: #ff5e14;
+  font-size: 30px;
+  float: left;
+  margin-top: 8px;
+}
+.cta-text {
+  padding-left: 15px;
+  display: inline-block;
+}
+.cta-text  {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+.cta-text span {
+  color: #757575;
+  font-size: 15px;
+}
+.footer-content {
+  position: relative;
+  z-index: 2;
+}
+.footer-pattern img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 330px;
+  background-size: cover;
+  background-position: 100% 100%;
+}
+.footer-logo {
+  margin-bottom: 30px;
+}
+.footer-logo img {
+    max-width: 200px;
+}
+.footer-text p {
+  margin-bottom: 14px;
+  font-size: 14px;
+      color: #7e7e7e;
+  line-height: 28px;
+}
+.footer-social-icon span {
+  color: #fff;
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 20px;
+}
+.footer-social-icon a {
+  color: #fff;
+  font-size: 16px;
+  margin-right: 15px;
+}
+.footer-social-icon i {
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  line-height: 38px;
+  border-radius: 50%;
+}
+.facebook-bg{
+  background: #3B5998;
+}
+.twitter-bg{
+  background: #55ACEE;
+}
+.google-bg{
+  background: #DD4B39;
+}
+.footer-widget-heading h3 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  position: relative;
+}
+.footer-widget-heading h3::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -15px;
+  height: 2px;
+  width: 50px;
+  background: #ff5e14;
+}
+.footer-widget ul li {
+  display: inline-block;
+  float: left;
+  width: 50%;
+  margin-bottom: 12px;
+}
+.footer-widget ul li a:hover{
+  color: #ff5e14;
+}
+.footer-widget ul li a {
+  color: #878787;
+  text-transform: capitalize;
+}
+.subscribe-form {
+  position: relative;
+  overflow: hidden;
+}
+.subscribe-form input {
+  width: 100%;
+  padding: 14px 28px;
+  background: #2E2E2E;
+  border: 1px solid #2E2E2E;
+  color: #fff;
+}
+.subscribe-form button {
+    position: absolute;
+    right: 0;
+    background: #ff5e14;
+    padding: 13px 20px;
+    border: 1px solid #ff5e14;
+    top: 0;
+}
+.subscribe-form button i {
+  color: #fff;
+  font-size: 22px;
+  transform: rotate(-6deg);
+}
+.copyright-area{
+  background:  #3c235c;
+  padding: 25px 0;
+}
+.copyright-text p {
+  margin: 0;
+  font-size: 14px;
+  color: #878787;
+}
+.copyright-text p a{
+  color: #ff5e14;
+}
+.footer-menu li {
+  display: inline-block;
+  margin-left: 20px;
+}
+.footer-menu li:hover a{
+  color: #ff5e14;
+}
+.footer-menu li a {
+  font-size: 14px;
+  color: #878787;
+}
+.bi-facebook {
+    font-size:30px;
+}
+.bi-youtube{
+    font-size:30px;
+}
+.bi-twitter {
+    font-size:30px;
+}
+.bi-linkedin {
+    font-size:30px;
+}

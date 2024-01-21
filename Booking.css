@@ -1,0 +1,16 @@
+.sltopt{
+    border: none;
+}
+.bking-crd{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.bkng-btn{
+    padding: 10px;
+    background-color:  #FF8008;;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.bkg-main{
+    margin-top: -50px;
+}
